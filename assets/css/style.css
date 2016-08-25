@@ -1,0 +1,41 @@
+body{
+	background-image: url("../../assets/images/burger.jpg");
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+	background-color:#f1ec16;
+	border:2px solid #f41b26;
+	padding:10px;
+	font-size:65px;
+	color: #f41b26;
+	text-align:center;
+}
+
+h2{
+
+	font-family: 'Bangers', cursive;
+	font-size:35px;
+	color: #f41b26;
+	padding:10px;
+}
+
+img{
+	width:125px;
+	height:125px;
+	float:left;
+	margin:5px;
+}
+
+.character-choices,
+.you,
+.them,
+.enemy{
+	height:180px;
+	width:900px;
+	}
+
+.fight{
+	margin:10px;
+	height:50px;
+}
