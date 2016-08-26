@@ -10,6 +10,7 @@ h1{
 	font-size:65px;
 	color: #f41b26;
 	text-align:center;
+	text-shadow: 2px 2px #000000;
 }
 
 h2{
@@ -18,6 +19,8 @@ h2{
 	font-size:35px;
 	color: #f41b26;
 	padding:10px;
+	text-shadow: 2px 2px #000000;
+
 }
 
 img{
@@ -25,13 +28,17 @@ img{
 	height:125px;
 	float:left;
 	margin:5px;
+	border: 2px solid #f41b26;
+	padding: 15px;
+	background-color:#f1ec16;
 }
+
 
 .character-choices,
 .you,
 .them,
 .enemy{
-	height:180px;
+	height:225px;
 	width:900px;
 	}
 

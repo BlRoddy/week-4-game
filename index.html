@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>RPG Game</title>
+	<title>Burger Battle</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
@@ -10,6 +10,7 @@
 </head>
 <body>
 	<h1>Bob's Burger Brawl</h1>
+	<audio autoplay><source src="assets/audio/theme.mp3" type="audio/mpeg"></audio>
 
 <!-- options to select from to start game -->
 	<div class="character-choices">
@@ -33,13 +34,13 @@
 	</div>
 <br>
 <!-- display user's selection here -->
-	<div class="you">
-		<h2>Your Character</h2>	
+	<div class="them">
+		<h2>Enemies Available</h2>	
 	</div>
 
 <!-- display available opponents -->
-	<div class="them">
-		<h2>Enemies Available</h2>
+	<div class="you">
+		<h2>Your Character</h2>
 	</div>
 
 <!-- fight section -->
@@ -49,10 +50,10 @@
 
 <!-- selected opponent-->
 	<div class="enemy">
-		<h2>Defender</h2>
+		<h2>Your Enemy!</h2>
 	</div>
 
-
+<script src='assets/javascript/game.js'></script>
 
 </body>
 </html>
