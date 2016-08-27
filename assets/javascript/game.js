@@ -30,7 +30,7 @@ $(document).ready(function(){
 		}
 
 		else{
-			alert("Let the Burger Battle begin!");
+			alert("Click Battle to begin the Burger Brawl!");
 		 }
 	};
 
