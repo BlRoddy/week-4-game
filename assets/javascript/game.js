@@ -31,7 +31,7 @@ $(document).ready(function(){
 
 		else{
 			alert("Let the Burger Battle begin!");
-		}
+		 }
 	};
 
 
